@@ -10,7 +10,7 @@
       Live
     </a>
     <span> | </span>
-    <a href="https://github.com/eraybarslan/img-uploader/">
+    <a href="https://github.com/eraybarslan/devc-img-uploader/">
       Solution
     </a>
   </h3>

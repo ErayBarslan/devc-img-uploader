@@ -22,6 +22,10 @@ app.post(`/api/upload/${process.env.API_KEY}`, async (req, res) => {
   }
 })
 
+app.get('/', async (req, res) => {
+  res.send('Image Uploader API')
+})
+
 app.listen(process.env.PORT || 5000, () => {
   console.log("listening...")
 })

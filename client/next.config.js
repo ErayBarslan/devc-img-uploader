@@ -4,7 +4,7 @@ const rewrites = async () => {
   return [
     {
       source: "/upload",
-      destination: `http://localhost:5000/api/upload/${process.env.API_KEY}`,
+      destination: `https://devc-img-uploader-production.up.railway.app/api/upload/${process.env.API_KEY}`,
     },
   ]
 }
